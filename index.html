@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reto 2 </title>
+    <link rel="stylesheet" href="css/retoEstilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+
+</head>
+<body>
+    <form class="form">
+        <h1> BASE DE DATOS </h1>
+
+        <div>
+            <p type="ID"> <input class="nombre" type="number" id="id" placeholder=" "></p>
+            <p type="NAME"><input class="nombre" type="text" id="name" placeholder=" "></p>
+            <p type="EMAIL"><input class="nombre" type="text" id="email" placeholder=" "></p>
+            <p type="AGE"> <input class="nombre" type="number" id="age" placeholder=" "></p>
+
+        </div>
+    </form>
+
+    <div class="orden">
+        
+        <input class="buttonLibrary" type="button" value="Guardar" onclick="guardarInformacion()">
+        <input class="buttonLibrary" type="button" value="Actualizar" onclick="editarInformacion()">
+        <input class="buttonLibrary" type="button" value="Consultar" onclick="traerInformacion()">
+        
+    </div>
+    
+    <div class="tabla">
+        <div id="resultado"></div>
+    </div>
+</body>
+
+
+</html>
+

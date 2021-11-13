@@ -1,0 +1,129 @@
+body{
+    background:#eb87c1;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #eb87c1, #eb47a6);
+    background: linear-gradient(to right, #b81212, #533d4a, #0f070c);
+    margin:0;
+}
+
+.form{
+    width:340px;
+    height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+}
+
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#161616;
+}
+
+.nombre{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #f1f1f3;
+}
+
+input:focus{
+    border-bottom:2px solid hsl(0, 95%, 22%);
+    transition:all .9s;
+}
+
+button{
+    float:right;
+    padding:10px 15px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    font-size: 16px;
+    border:2px solid #f6f7f8;
+    background:#0c0c0c;
+    color:#fefeff;
+    cursor:pointer;
+    transition:all .3s
+}
+
+button:hover{background:#659fcf;color:#fff}
+.buttonLibrary{
+
+    float:right;
+    padding:10px 15px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    font-size: 16px;
+    border-bottom:2px solid #f6f7f8;
+    background:#0c0c0c;
+    color:#fefeff;
+    cursor:pointer;
+    transition:all .3s
+
+}
+
+
+span{margin:0 5px 0 15px}
+
+.orden{
+    color: #fff;;
+    position: absolute;
+    align-content: center;
+    left: 38%;
+    top: 550px;
+}
+
+table {
+    position: absolute;
+        left: 0%;
+        border: 1px solid #999;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 0 1em 0;
+        caption-side: top;
+        top: 620px;
+        font-family: Mochiy Pop P One;
+        font-size: 16px;
+        color: #000;
+        }
+     caption, td, th {
+        padding: 0.3em;
+     }
+     th, td {
+        border-bottom: 1px solid #999;
+        width: 25%;
+        border-collapse: separate;
+        border-spacing: 30px;
+        border: 3px solid #020202;
+     }
+     td{
+
+        background-color: rgba(255, 219, 219, 0.377);
+        text-align: center;
+
+     }
+     caption {
+        font-weight: bold;
+        font-style: italic;
+}
+
+tr:nth-child(odd) {
+    background-color: #fffeff;
+}
+
+td:nth-child(odd) {
+    background-color: #fffdfd85;
+}
+
